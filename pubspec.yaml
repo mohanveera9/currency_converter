@@ -1,0 +1,27 @@
+name: mohan
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  rename_app: ^1.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.10.0
+  flutter_lints: ^3.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.jpg"
+flutter:
+  assets:
+    - assets/icon/icon.jpg
+  uses-material-design: true
